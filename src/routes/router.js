@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/test', (req, res) => {
-  res.send('n8n test kub pom');
+  res.send('test from n8n kub eiei');
 });
 
 module.exports = router;

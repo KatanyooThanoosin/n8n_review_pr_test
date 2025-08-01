@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/test', (req, res) => {
-  res.send('test from n8n kub eiei');
+  res.send('from auto push code');
 });
 
 module.exports = router;
